@@ -1,0 +1,165 @@
+body {
+  background-color: #333;
+  padding: 1;
+  margin: 0;
+}
+h1 {
+  padding: 0;
+  margin: 0;
+  color: tomato;
+  font-size: 3em;
+}
+.container {
+  background-color: #fff;
+  padding: 10px;
+  width: 70%;
+  margin: auto;
+}
+
+.page-header {
+  background-color: #fff;
+  text-align: center;
+}
+
+.logo {
+  color: rgb(158, 28, 28);
+  padding: 10px;
+}
+
+nav {
+  background-color: darkorange;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a:link,
+a:visited {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: #525151;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 90%;
+}
+
+.hero {
+  background-image: url("../img/luis-quintero-png.jpg");
+  background-color: #f5d1d1;
+  height: 600px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: 1px solid #ccc;
+}
+
+.cta{
+  background-color: #04AA6D;
+  width: 400px;
+  height: 180px;
+  position: relative;
+  left: 100px;
+  top: 30px;
+  padding: 20px;
+  opacity: 80%;
+}
+
+.cta h2{
+  color:#0c243c;
+}
+
+.cta button{
+  display: block; 
+  padding:10px;
+  background-color: rgb(5,29,84);
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  
+}
+
+.feature {
+  text-align: center;
+  background-color: burlywood;
+  text-align: center;
+  margin: 10px;
+}
+
+.featured-items {
+  background-color: aquamarine;
+  display: flex;
+}
+
+.featured-item {
+  background-color: blueviolet;
+  width: 33.3%;
+}
+.featured-items img {
+  width: 100%;
+}
+.copyright {
+  background-color: aquamarine;
+  text-align: center;
+  padding: 0px;
+}
+.socialmedia {
+  background-color: blanchedalmond;
+  text-align: center;
+  margin: 10px;
+}
+.socialmedia-items {
+  background-color: #eee;
+  display:flex;
+  justify-content: center;
+
+}
+
+input[type=text],select,textarea{
+ width: 100%;/*Full width */
+ padding:12px;/*Some padding*/
+ border: 1px solid #ccc;/*Gray border*/
+ border-radius: 4px;/*Rounded borders*/
+ box-sizing: border-box;/*Make sure that padding and width stay in place*/
+ margin-top: 6px;/*Add a top margin*/
+ margin-bottom: 16px;/*Bottom margin*/
+ resize: vertical;/*Allow the user to vertically resize the textarea(not horizontall)*/
+}
+
+/*Style the submit button with a specific background color etx*/
+input[type=submit]{
+background-color: #04AA6D;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+/*When moving the mouse over the submit over the submit button, add a darker green color*/
+input[type=submit]:hover{
+  background-color: #45a049;
+}
+
+.contact-form{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding:20px;
+}
+
+.contact-form{
+  border-radius: 20px;
+  padding-bottom:10px;
+}
+
+table{
+  width:100%;
+  border-collapse: collapse;
+}
+table,tr,th,td{
+  border: 1px solid black;
+}
+
+.about{
+  text-align: center;
+  padding: 20px;
+}
